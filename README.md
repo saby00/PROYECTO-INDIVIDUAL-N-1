@@ -1,4 +1,4 @@
-# PROYECTO-INDIVIDUAL-N-1
+# PROYECTO-INDIVIDUAL-N-1: Sistema de Recomendacion de peliculas
 
 El objetivo de este proyecto es implementar un sistema de recomendaciones de juegos a usuarios de steam
 
@@ -8,3 +8,4 @@ Books implementados
 3. Analisis exploratorio de datos.
 4. Preparacion de datos para una optimizacion del modelo.
 5. Sistema de recomendacion.
+
