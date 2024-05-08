@@ -5,6 +5,11 @@ from Functions import *
 
 app = FastAPI()
 
+@app.get("/PlayTimeGenre/{genre}")
+async def get_user_for_genre(genre: str):
+    result = PlayTimeGenre(genre)
+    return JSONResponse(content=result)
+
 @app.get("/UserForGenre/{genre}")
 async def get_user_for_genre(genre: str):
     result = UserForGenre(genre)
